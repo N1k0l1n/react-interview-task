@@ -1,0 +1,106 @@
+.data-grid {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: calc(100% - 280px);
+  background-color: white;
+  border-radius: 8px;
+}
+
+.data-grid-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.datagrid-search-input {
+  width: 492px;
+  height: 32px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-left: 25px;
+
+}
+
+.category-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.add-button {
+  margin-top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-button {
+  margin-left: 20px;
+}
+
+.data-grid-content {
+  margin-top: 20px;
+}
+
+.data-grid-row.labels {
+  font-weight: bold;
+}
+
+.data-grid-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.data-grid-row.odd-row {
+  background-color: #f2f2f2;
+}
+
+.data-grid-row:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+.data-grid-row div {
+  flex: 1;
+  text-align: center;
+}
+
+.search-label {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+
+.search-icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.empty-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.empty-message-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.empty-message-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}

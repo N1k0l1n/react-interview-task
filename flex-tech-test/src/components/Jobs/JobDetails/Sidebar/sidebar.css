@@ -1,0 +1,46 @@
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: calc(100% - 280px);
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar button:hover {
+  background-color: #0056b3;
+}
+
+.go-back-button {
+  text-align: center;
+  margin-top: auto;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 10px;
+
+}
+
+.go-back-icon {
+  margin-right: 5px;
+  font-size: 12px;
+}

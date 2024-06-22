@@ -1,0 +1,23 @@
+.filter-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-buttons select,
+.filter-buttons button {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.filter-buttons select {
+  background-color: #fff;
+}
+
+
+
+.filter-buttons button:focus {
+  outline: none;
+}

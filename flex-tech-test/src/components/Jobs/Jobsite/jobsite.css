@@ -1,0 +1,60 @@
+.jobsite-app {
+  margin: auto;
+  padding: 4rem;
+  border-radius: 8px;
+  background-color: #f8f8fa;
+  margin-top: -2%;
+}
+
+.jobsite-app__filters-and-add {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.jobsite-app__filters {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.jobsite-app__search {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.jobsite-app__search-input {
+  padding: 0.5rem;
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+  outline: none;
+  flex-grow: 1;
+}
+
+.jobsite-app__search-input:focus {
+  border-color: #428bca;
+}
+
+.jobsite-app__search-btn {
+  background-color: #428bca;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.jobsite-app__add {
+  margin-left: 1rem;
+}
+
+.jobsite-app__add-btn {
+  background-color: #7ac14d;
+  color: white;
+  padding: 0.5rem 1rem;
+  width: 140%;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}

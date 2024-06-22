@@ -1,0 +1,168 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 868px;
+  height: 410px;
+  max-height: 90%;
+  max-width: 90%;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  color: #1264A3;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-body {
+  margin: 20px 10px;
+}
+
+.upper-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.category-container {
+  margin-right: 10px;
+  flex: 2;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-header {
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown-list {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  z-index: 1;
+  width: 100%;
+  /* Ensure the dropdown list takes full width */
+  max-height: 100px;
+  overflow-y: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-list label {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-list label:hover {
+  background-color: #f0f0f0;
+}
+
+.selected-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.selected-category {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.selected-category button {
+  background: none;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #dc3545;
+}
+
+.status-container {
+  flex: 1;
+  margin-left: 10%;
+}
+
+.modal-body label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.modal-body .modal-input,
+.modal-body .modal-select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.modal-body .modal-input {
+  margin-bottom: 10px;
+  width: calc(100% - 40px);
+
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10%;
+}
+
+.modal-footer button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.modal-cancel {
+  background: #dc3545;
+  color: white;
+}
+
+.modal-save {
+  background: #28a745;
+  color: white;
+}

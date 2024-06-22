@@ -1,0 +1,115 @@
+.datagrid-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.datagrid-modal.show {
+  display: block;
+}
+
+.datagrid-modal-content {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.datagrid-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.datagrid-modal-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #1264A3;
+}
+
+.datagrid-modal-close {
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #888;
+}
+
+.datagrid-modal-body {
+  margin-bottom: 20px;
+}
+
+.grupped_items {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 22%;
+
+}
+
+.datagrid-modal-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.datagrid-modal-label {
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.datagrid-modal-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: calc(125% - -85px);
+  background-color: #f2f2f2;
+}
+
+.datagrid-modal-textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #f2f2f2;
+  resize: vertical;
+  width: calc(100% - 22px);
+}
+
+.datagrid-modal-textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.datagrid-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.datagrid-modal-footer button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+
+.datagrid-modal-save {
+  background-color: #28a745;
+  color: white;
+}

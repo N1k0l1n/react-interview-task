@@ -1,0 +1,80 @@
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.5rem;
+
+}
+
+.job-item__content {
+  display: contents;
+}
+
+.job-item__name {
+  color: #1264A3;
+  cursor: pointer;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.job-item__status-container {
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  color: white;
+  text-align: center;
+  margin-left: 48%;
+  min-width: 10%;
+
+}
+
+.job-item__status {
+  border: none;
+  color: white;
+  text-align: center;
+  background-color: inherit;
+  padding: 0.25rem 0.5rem;
+  width: 100%;
+
+}
+
+.job-item__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.job-item__actions__btn {
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.job-item__actions__btn:hover {
+  opacity: 0.8;
+}
+
+.job-item__actions__btn--remove {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.job-item:nth-child(even) {
+  background-color: white;
+}
+
+.job-item__status--completed {
+  background-color: #57bb8a;
+}
+
+.job-item__status--on-road {
+  background-color: yellow;
+}
+
+.job-item__status--on-hold {
+  background-color: #e74c3c;
+}

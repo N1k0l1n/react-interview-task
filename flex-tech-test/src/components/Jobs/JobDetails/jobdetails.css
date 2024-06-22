@@ -1,0 +1,6 @@
+.jobsite-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f2f2f2;
+  gap: 8px;
+}
